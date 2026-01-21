@@ -1,6 +1,6 @@
 import React from "react";
 import agencyProject from "../assets/agency.png"; // replace with your actual image
-import clothingBrand from "../assets/clothing.png"; // replace with your actual image
+import clothingBrand from "../assets/Cloth.png"; // replace with your actual image
 
 const Projects = () => {
     const projects = [
@@ -19,7 +19,7 @@ const Projects = () => {
                 "An e-commerce clothing brand website featuring product listings, cart functionality, and a modern, clean UI for smooth shopping experience.",
             image: clothingBrand,
             tech: ["React", "Tailwind CSS", "JavaScript"],
-            demo: "https://clothing-store100.vercel.app/",
+            demo: "",
             github: "#",
         },
     ];
