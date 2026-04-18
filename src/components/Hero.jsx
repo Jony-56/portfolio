@@ -8,7 +8,7 @@ const Hero = () => {
       className="relative min-h-screen pt-24 flex items-center justify-center px-6 md:px-10 overflow-hidden bg-gray-900"
     >
       {/* Animated Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-pink-900 opacity-30 animate-gradient blur-3xl pointer-events-none"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-blue-900 via-purple-900 to-pink-900 opacity-30 animate-gradient blur-3xl pointer-events-none"></div>
 
       {/* Floating Orbs */}
       <div className="absolute w-96 h-96 bg-blue-500/20 rounded-full blur-3xl -top-32 -left-32 animate-float pointer-events-none"></div>

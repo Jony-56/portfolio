@@ -12,7 +12,7 @@ const Navbar = () => {
 
         {/* LOGO */}
         <h1 className="text-2xl font-extrabold tracking-wide">
-          <span className="bg-gradient-to-r from-orange-400 to-primary bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-orange-400 to-primary bg-clip-text text-transparent">
             J
           </span>
           ony
@@ -24,7 +24,7 @@ const Navbar = () => {
             <li
               key={item}
               className="relative cursor-pointer transition hover:text-white
-              after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-[2px]
+              after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5
               after:bg-primary after:transition-all after:duration-300 hover:after:w-full"
             >
               <a href={`#${item.toLowerCase()}`}>{item}</a>
@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* DESKTOP BUTTON */}
         <a
           href="#contact"
-          className="hidden md:block bg-gradient-to-r from-orange-500 to-primary px-6 py-2 rounded-full font-semibold shadow-lg shadow-orange-500/30 hover:scale-105 transition"
+          className="hidden md:block bg-linear-to-r from-orange-500 to-primary px-6 py-2 rounded-full font-semibold shadow-lg shadow-orange-500/30 hover:scale-105 transition"
         >
           Hire Me
         </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
             ))}
             <a
               href="#contact"
-              className="mt-2 bg-gradient-to-r from-orange-500 to-primary px-6 py-2 rounded-full font-semibold shadow-lg shadow-orange-500/30"
+              className="mt-2 bg-linear-to-r from-orange-500 to-primary px-6 py-2 rounded-full font-semibold shadow-lg shadow-orange-500/30"
             >
               Hire Me
             </a>

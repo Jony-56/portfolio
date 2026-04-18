@@ -1,6 +1,7 @@
 import React from "react";
 import agencyProject from "../assets/agency.png"; // replace with your actual image
 import clothingBrand from "../assets/Cloth.png"; // replace with your actual image
+import ProjectManagement from "../assets/ProjectManagement.png"; // replace with your actual image
 
 const Projects = () => {
     const projects = [
@@ -19,8 +20,17 @@ const Projects = () => {
                 "An e-commerce clothing brand website featuring product listings, cart functionality, and a modern, clean UI for smooth shopping experience.",
             image: clothingBrand,
             tech: ["React", "Tailwind CSS", "JavaScript"],
-            demo: "",
-            github: "#",
+            demo: "https://full-stack-e-commerce-blush.vercel.app",
+            github: "https://github.com/Jony-56/E-commerce/tree/main",
+        },
+         {
+            title: "Full Stack Project Management Platform",
+            description:
+                "An e-commerce clothing brand website featuring product listings, cart functionality, and a modern, clean UI for smooth shopping experience.",
+            image: ProjectManagement,
+            tech: ["ASP.NET Core 8" ,"React" , "MySQL",  "SignalR",  "JWT" , "EF", "Core"],
+            demo: "https://task-management-full-stack-jony-56s-projects.vercel.app",
+            github: "https://github.com/Jony-56/ProjectManagement-FullStack",
         },
     ];
 
@@ -44,7 +54,7 @@ const Projects = () => {
                         />
 
                         {/* Gradient overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-4xl"></div>
+                        <div className="absolute inset-0 bg-linear-to-t from-black/70 to-black/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-4xl"></div>
 
                         {/* Project Info */}
                         <div className="p-8 relative z-10">

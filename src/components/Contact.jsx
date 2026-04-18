@@ -32,7 +32,7 @@ const Contact = () => {
       className="relative py-14 px-6 md:px-12 bg-gray-900 text-gray-300 overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 opacity-20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-gray-900 via-gray-800 to-gray-900 opacity-20 pointer-events-none"></div>
 
       <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4 relative z-10">
         Get in Touch
@@ -87,7 +87,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full mt-2 bg-gradient-to-r from-orange-500 to-primary py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition"
+            className="w-full mt-2 bg-linear-to-r from-orange-500 to-primary py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition"
           >
             Send Message
           </button>

@@ -9,7 +9,7 @@ const About = () => {
             className="relative py-32 overflow-hidden"
         >
             {/* Animated Background Gradient */}
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-900 via-blue-900 to-pink-900 opacity-20 animate-gradient blur-3xl pointer-events-none"></div>
+            <div className="absolute inset-0 bg-linear-to-br from-purple-900 via-blue-900 to-pink-900 opacity-20 animate-gradient blur-3xl pointer-events-none"></div>
 
             {/* Floating Particles */}
             <div className="absolute w-72 h-72 bg-blue-500/20 rounded-full blur-3xl -top-32 -left-32 animate-float pointer-events-none"></div>
@@ -39,7 +39,7 @@ const About = () => {
                 {/* BUTTONS */}
                 <div className="flex justify-center gap-6 flex-wrap">
                     {/* HIRE ME */}
-                    <button  className="bg-gradient-to-r from-orange-500 to-primary px-6 py-3 rounded-full font-semibold shadow-lg shadow-orange-500/30 hover:scale-105 hover:shadow-2xl transition-all duration-300 animate-slideIn opacity-0">
+                    <button  className="bg-linear-to-r from-orange-500 to-primary px-6 py-3 rounded-full font-semibold shadow-lg shadow-orange-500/30 hover:scale-105 hover:shadow-2xl transition-all duration-300 animate-slideIn opacity-0">
                       <a href="#contact">Hire Me</a>  
                     </button>
 
